@@ -1,6 +1,9 @@
 nav {
   background-color: #E8E0D6;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 nav a {
@@ -11,8 +14,14 @@ nav a {
   text-decoration: none;
 }
 
+img {
+  width: 100px;
+  padding: 0;
+
+}
+
 .subnav {
-  float: left;
+  /* float: left; */
   overflow: hidden;
 }
 
@@ -28,13 +37,21 @@ nav a {
   display: none;
   position: absolute;
   left: 0;
-  width: 100%;
+  /* top: 100%; */
+  width: 400px;
   z-index: 1;
+  column-count: 2;
+  column-gap: 20px;
+  background-color: #36454F;
+  color: #E8E0D6;
 }
 
 .subnav-content a {
-  float: right;
-  
+  /* float: right; */
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #E8E0D6;
 }
 
 .subnav-content a:hover {
@@ -44,4 +61,8 @@ nav a {
 
 .subnav:hover .subnav-content {
   display: block;
+}
+
+#nav-img {
+  padding: 0;
 }

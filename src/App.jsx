@@ -8,7 +8,7 @@ import OneClementine from './pages/OneClementine'
 // components
 import NavBar from './components/NavBar/NavBar'
 
-import './App.css'
+// import './App.css'
 
 function App() {
 

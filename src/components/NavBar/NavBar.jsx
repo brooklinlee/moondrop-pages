@@ -11,8 +11,6 @@ const NavBar = () => {
   return (  
     <>
     <nav>
-      <NavLink>ABOUT</NavLink>
-      <NavLink to='/'><img src={MDPLogo} alt="Moondrop Pages Logo" /></NavLink>
       <div className="subnav">
         <button className="subnav-btn">PAGES</button>
         <div className="subnav-content">
@@ -21,6 +19,10 @@ const NavBar = () => {
           <NavLink>003 - Angel</NavLink>
         </div>
       </div>
+      <NavLink>SEARCH</NavLink>
+      <NavLink to='/' id='nav-img'><img src={MDPLogo} alt="Moondrop Pages Logo" /></NavLink>
+      <NavLink>ABOUT</NavLink>
+      <NavLink>CONTACT</NavLink>
     </nav>
     </>
   )
