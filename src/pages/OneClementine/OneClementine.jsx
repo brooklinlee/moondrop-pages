@@ -2,8 +2,7 @@
 import '../OneClementine/OneClementine.css'
 
 // images
-import headerOne from '../../assets/images/kaitlyn-chow-9mXSfVYPmlM-unsplash.jpg'
-import headerTwo from '../../assets/images/hoang-huy-CcAX-A7Ovk8-unsplash.jpg'
+import orange from '../../assets/images/antonio-napodano-mjVN3RJVKd0-unsplash.jpg'
 
 const OneClementine = () => {
   return (  
@@ -16,8 +15,8 @@ const OneClementine = () => {
         <p>Vibrant sun-kissed flavor in every bite</p>
       </div>
     </header>
-    <section className="top">
-      <div></div>
+    <section className="one">
+      <img src={orange} alt="" />
       <div>
         <p>Peeling back the golden skin of a clementine releases a fragrant burst of citrus joy, a miniature sun captured in each delightful, tangy orb.</p>
       </div>
