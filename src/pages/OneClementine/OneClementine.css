@@ -1,0 +1,47 @@
+header {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.imgone{
+  background: url('../../assets/images/coco-tafoya-tkAr_3F-7pI-unsplash.jpg') center/cover;
+}
+
+.imgtwo {
+  background: url('../../assets/images/hoang-huy-CcAX-A7Ovk8-unsplash.jpg') center/cover;
+}
+
+.imgone::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(54, 69, 79, 0.5);
+}
+
+.imgone, .imgtwo{
+  width: 50%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.overlay-text h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.overlay-text p {
+  margin: 0;
+  font-size: 1.2em;
+}
