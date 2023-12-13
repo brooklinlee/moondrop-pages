@@ -1,0 +1,47 @@
+nav {
+  background-color: #E8E0D6;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnav-btn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: right;
+  
+}
+
+.subnav-content a:hover {
+  background-color: #36454F;
+  color: #E8E0D6;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
